@@ -78,3 +78,35 @@ footer{
     display: inline;
     font-size: x-large;
 }
+#media1{
+    animation: movemedia1 10s;
+    z-index: 1;
+    width: 50vw;
+}
+
+#media2{
+    animation: movemedia2 10s;
+    z-index: 1;
+    width: 50vw;
+
+}
+
+#media3{
+    animation: movemedia3 10s;
+    z-index: 1;
+    width: 50vw;
+
+}
+
+@keyframes movemedia1{
+    0%{transform: translateX(-30vw);}
+    100%{transform: translateX(10vw);}
+}
+@keyframes movemedia2{
+    0%{transform: translateX(-40vw);}
+    100%{transform: translateX(20vw);}
+}
+@keyframes movemedia3{
+    0%{transform: translateX(-50vw);}
+    100%{transform: translateX(30vw);}
+}
