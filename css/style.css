@@ -32,14 +32,17 @@ body video{
 body{
     background-color: #EEE9E3;
     font-family: 'Open Sans', sans-serif;
-    margin: 1;
 }
-#page2{
-    display: inline;
+#homepage{
+    display: flex;
+} 
+#HOMEimg{
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    width: 30vw;
 }
-
-.HOMEimg{
-    margin-left: 10px;
+#para2{
+    margin: 1vw;
 }
 footer{
     height: 5vh;
@@ -48,8 +51,8 @@ footer{
     z-index: 1;
     font-size: large;
 }
-.icon{
-    background-image: url('media/sprite3.png');
+.icons{
+    background: url('/media/sprite3.png');
     background-repeat: no-repeat;
 	width: 66px;
 	height: 66px;
@@ -63,18 +66,15 @@ footer{
 
 
 #row1 img{
-    width: 45vw;
-}
-#row2{
-    display: inline;
-}
-#row2 img{
-    width: 45vw;
+    width: 25vw;
+    display: flex;
 }
 #page4IMG img{
     width:30vw;
+    display: inline;
+    margin-left: 50px;
 }
 #page4{
     display: inline;
-    font-size: xx-large;
+    font-size: x-large;
 }
