@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Open+Sans&family=Slabo+27px&display=swap');
+
+#navbar{ 
+    height: 5vh;
+    background-color: #8CA87C; 
+    padding: 1vh;
+    font-size: x-large;
+}
+#title{
+    float: left;
+    text-decoration: none;
+    color: #2B3425;
+    font-family: sans-serif;
+    margin-top:1vh;
+    font-size: xx-large;
+}
+#links a{
+    float: right;
+    text-decoration: none;
+    color: #2B3425;
+    display: flex;
+    justify-content: center;
+    margin-right: 2vh;
+    font-family: sans-serif;
+    margin-top: 2vh;
+}
+body video{
+    height: 100vh;
+    width: 100vw; 
+}
+body{
+    background-color: #EEE9E3;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1;
+}
+#page2{
+    display: inline;
+}
+
+.HOMEimg{
+    margin-left: 10px;
+}
+footer{
+    height: 5vh;
+    padding: 1vh;
+    background-color: #8CA87C;
+    z-index: 1;
+    font-size: large;
+}
+.icon{
+    background-image: url('media/sprite3.png');
+    background-repeat: no-repeat;
+	width: 66px;
+	height: 66px;
+    display: inline-block;
+}
+
+#twitter{background-position:-66px -72px}
+#instagram{background-position:-290px -221px;}
+#pinterest{background-position:-141px -221px;}
+#youtube{background-position: -439px -221px;}
+
+
+#row1 img{
+    width: 45vw;
+}
+#row2{
+    display: inline;
+}
+#row2 img{
+    width: 45vw;
+}
+#page4IMG img{
+    width:30vw;
+}
+#page4{
+    display: inline;
+    font-size: xx-large;
+}
